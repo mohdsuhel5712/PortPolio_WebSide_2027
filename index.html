@@ -668,15 +668,17 @@
                         </div>
 
                         <div class="fade-up" data-aos="flip-left">
-                              <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+                              <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)" action="https://api.web3forms.com/submit" method="POST">
                                     <div class="form-row">
                                           <div class="form-group">
+                                                    <input type="hidden" name="access_key" value="f119cd0d-b3c0-4d72-91be-eb716dac8869">
                                                 <label class="form-label">Your Name *</label>
                                                 <input type="text" class="form-input" id="fname"
                                                       placeholder="John Doe" />
                                                 <span class="form-error" id="fname-err">Please enter your name.</span>
                                           </div>
                                           <div class="form-group">
+                                                    <input type="hidden" name="access_key" value="f119cd0d-b3c0-4d72-91be-eb716dac8869">
                                                 <label class="form-label">Email Address *</label>
                                                 <input type="email" class="form-input" id="femail"
                                                       placeholder="john@email.com" />
@@ -685,12 +687,14 @@
                                           </div>
                                     </div>
                                     <div class="form-group" data-aos="flip-right">
+                                              <input type="hidden" name="access_key" value="f119cd0d-b3c0-4d72-91be-eb716dac8869">
                                           <label class="form-label">Subject *</label>
                                           <input type="text" class="form-input" id="fsubject"
                                                 placeholder="Internship Opportunity / Project Collaboration" />
                                           <span class="form-error" id="fsubject-err">Please enter a subject.</span>
                                     </div>
                                     <div class="form-group">
+                                              <input type="hidden" name="access_key" value="f119cd0d-b3c0-4d72-91be-eb716dac8869">
                                           <label class="form-label">Message *</label>
                                           <textarea class="form-textarea" id="fmessage"
                                                 placeholder="Tell me about your project or opportunity..."></textarea>
