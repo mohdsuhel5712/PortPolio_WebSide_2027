@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Mohd Suhail - Aspiring Python Developer & AI/ML Engineer Portfolio" />
+      <meta name="keywords"
+            content="Mohd Suhail, Python Developer, AI ML Engineer, Machine Learning, Deep Learning, B.Tech IT, AKTU, Lucknow" />
+      <title>Mohd Suhail | AI/ML Engineer Portfolio</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+            rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+      <!-- my css  -->
+      <link rel="stylesheet" href="style.css">
+
+      <!-- aos animation -->
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+      <!-- NAV -->
+      <nav id="navbar">
+            <a href="#home" class="nav-logo" data-aos="fade-right">&lt;MS /&gt;</a>
+            <ul class="nav-links"  data-aos="fade-left">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" onclick="openMobileNav()">
+                  <span></span><span></span><span></span>
+            </div>
+      </nav>
+
+      <!-- MOBILE NAV -->
+      <div class="mobile-nav" id="mobileNav">
+            <button class="mobile-close" onclick="closeMobileNav()"><i class="fas fa-times"></i></button>
+            <a href="#home" onclick="closeMobileNav()">Home</a>
+            <a href="#about" onclick="closeMobileNav()">About</a>
+            <a href="#skills" onclick="closeMobileNav()">Skills</a>
+            <a href="#projects" onclick="closeMobileNav()">Projects</a>
+            <a href="#education" onclick="closeMobileNav()">Education</a>
+            <a href="#achievements" onclick="closeMobileNav()">Achievements</a>
+            <a href="#contact" onclick="closeMobileNav()">Contact</a>
+      </div>
+
+      <!-- HERO -->
+      <section id="home">
+            <div class="container">
+                  <div class="hero-grid">
+                        <div class="hero-content" data-aos="flip-up">
+                              <div class="hero-eyebrow" data-aos="flip-up">Available for Opportunities</div>
+                              <h1 class="hero-name">Mohd <span>Suhail</span></h1>
+                              <p class="hero-title" id="typed-text">Aspiring Python Developer | AI/ML Engineer<span
+                                          class="typed-cursor">|</span></p>
+                              <p class="hero-desc">
+                                    Passionate B.Tech 3rd Year IT student at Bansal Institute of Engineering &amp;
+                                    Technology, Lucknow (AKTU). Building real-world applications with Python, AI/ML,
+                                    Deep Learning, and Full Stack technologies.
+                              </p>
+                              <div class="hero-btns">
+                                    <a href="mailto:mohdsuhail5712@gmail.com" class="btn-primary">
+                                          <i class="fas fa-paper-plane"></i> Contact Me
+                                    </a>
+                                    <a href="#projects" class="btn-outline">
+                                          <i class="fas fa-code-branch"></i> View Projects
+                                    </a>
+                                    <a href="/assets/resume/SuhailsResume.pdf" download="SuhailsResume.pdf"
+                                          class="btn-outline">
+                                          <i class="fas fa-download"></i> Resume
+                                    </a>
+                              </div>
+                              <div class="hero-badges" data-aos="flip-down">
+                                    <div class="badge"><i class="fab fa-python"></i> Python Developer</div>
+                                    <div class="badge"><i class="fas fa-brain"></i> AI/ML Enthusiast</div>
+                                    <div class="badge"><i class="fas fa-layer-group"></i> Full Stack Learner</div>
+                                    <div class="badge"><a href="https://github.com/mohdsuhel5712 "> <i
+                                                      class="fab fa-github"></i> Open Source</a></div>
+                              </div>
+                        </div>
+
+                        <div class="hero-visual">
+                              <div class="profile-card">
+                                    <div class="profile-avatar">
+                                          <i class="fas fa-user-astronaut"></i>
+                                    </div>
+                                    <div class="floating-stat">
+                                          <div class="stat-icon"><i class="fab fa-python"
+                                                      style="color:white;font-size:0.85rem;"></i></div>
+                                          <div>
+                                                <div class="stat-label">Primary Language</div>
+                                                <div class="stat-val">Python</div>
+                                          </div>
+                                    </div>
+                                    <div class="floating-stat">
+                                          <div class="stat-icon"><i class="fas fa-robot"
+                                                      style="color:white;font-size:0.85rem;"></i></div>
+                                          <div>
+                                                <div class="stat-label">Focus Area</div>
+                                                <div class="stat-val">AI / ML</div>
+                                          </div>
+                                    </div>
+                                    <div class="floating-stat">
+                                          <div class="stat-icon"><i class="fas fa-graduation-cap"
+                                                      style="color:white;font-size:0.85rem;"></i></div>
+                                          <div>
+                                                <div class="stat-label">Year</div>
+                                                <div class="stat-val">B.Tech 3rd Year</div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+            <div class="container">
+                  <div class="section-header fade-up">
+                        <span class="section-eyebrow">// about me</span>
+                        <h2 class="section-title">Who Am <span>I?</span></h2>
+                        <div class="section-line"></div>
+                  </div>
+                  <div class="about-grid">
+                        <div class="about-left fade-up">
+                              <div class="about-img-wrap">
+                                    <div class="about-card-bg">
+                                          <i class="fas fa-code about-icon-main"></i>
+                                          <div class="about-info-pills">
+                                                <div class="info-pill">
+                                                      <span class="pill-key">Degree</span>
+                                                      <span class="pill-val">B.Tech (IT)</span>
+                                                </div>
+                                                <div class="info-pill">
+                                                      <span class="pill-key">Year</span>
+                                                      <span class="pill-val">Final Year</span>
+                                                </div>
+                                                <div class="info-pill">
+                                                      <span class="pill-key">University</span>
+                                                      <span class="pill-val">AKTU</span>
+                                                </div>
+                                                <div class="info-pill">
+                                                      <span class="pill-key">Location</span>
+                                                      <span class="pill-val">Lucknow, UP</span>
+                                                </div>
+                                                <div class="info-pill">
+                                                      <span class="pill-key">Status</span>
+                                                      <span class="pill-val" style="color:#22c55e;">Available ✓</span>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="about-right fade-up">
+                              <h3>Hello! I'm <span
+                                          style="background:var(--accent-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Mohd
+                                          Suhail</span></h3>
+                              <p class="about-text">
+                                    I'm currently pursuing B.Tech in Information Technology from Bansal Institute of
+                                    Engineering &amp; Technology, Lucknow — affiliated with Dr. A.P.J. Abdul Kalam
+                                    Technical University (AKTU).
+                              </p>
+                              <p class="about-text">
+                                    I enjoy building software solutions using Python, Machine Learning, Deep Learning,
+                                    and Web Technologies. I continuously improve my skills by working on practical
+                                    projects and exploring modern AI technologies.
+                              </p>
+                              <p class="about-text">
+                                    My approach combines strong theoretical fundamentals with hands-on project
+                                    development, making me capable of building intelligent, data-driven applications
+                                    that solve real-world business and social problems.
+                              </p>
+                              <div class="about-goal">
+                                    <i class="fas fa-quote-left" style="color:var(--accent-blue);margin-right:8px;"></i>
+                                    To become a professional Python Developer and AI/ML Engineer while contributing to
+                                    impactful, technology-driven solutions.
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      <!-- PROCESS (Work Approach) -->
+      <section id="process">
+            <div class="container">
+                  <div class="section-header fade-up">
+                        <span class="section-eyebrow">// work process</span>
+                        <h2 class="section-title">How I <span>Work</span></h2>
+                        <p class="section-subtitle">My structured approach to solving problems and building intelligent
+                              solutions.</p>
+                        <div class="section-line"></div>
+                  </div>
+                  <div class="process-steps">
+                        <div class="process-step fade-up">
+                              <div class="step-num">01</div>
+                              <div class="step-title">Research</div>
+                              <p class="step-desc"> Exploring tech Artificial Intelligence, Machine Learning, Deep
+                                    Learning,
+                                    Computer Vision, and Data Science through hands-on projects using
+                                    PyTorch, Scikit-Learn, NumPy, Pandas, and modern Python frameworks.</p>
+                        </div>
+                        <div class="process-step fade-up">
+                              <div class="step-num">02</div>
+                              <div class="step-title">Design</div>
+                              <p class="step-desc">Architecting intelligent solutions by selecting the right ML models,
+                                    designing efficient data pipelines, and building scalable full-stack
+                                    applications for real-world challenges</p>
+                        </div>
+                        <div class="process-step fade-up">
+                              <div class="step-num">03</div>
+                              <div class="step-title">Build</div>
+                              <p class="step-desc">Developing real-world applications using Python, AI/ML frameworks,
+                                    databases, and modern backend technologies with a focus on clean,
+                                    scalable, and efficient solutions.</p>
+                        </div>
+                        <div class="process-step fade-up">
+                              <div class="step-num">04</div>
+                              <div class="step-title">Deploy</div>
+                              <p class="step-desc"> Deploying web applications and AI projects using Flask, Django,
+                                    and FastAPI with responsive frontend interfaces and cloud-based hosting platforms.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+            <div class="container">
+                  <div class="section-header fade-up">
+                        <span class="section-eyebrow">// skills & technologies</span>
+                        <h2 class="section-title">My Tech <span>Stack</span></h2>
+                        <p class="section-subtitle">A broad set of tools and technologies I've learned and applied in
+                              real projects.</p>
+                        <div class="section-line"></div>
+                  </div>
+                  <div class="skills-categories">
+                        <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fas fa-terminal" style="color:white;"></i>
+                                    </div>
+                                    <span class="skill-cat-name">Programming Languages</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">C</span>
+                                    <span class="skill-tag">java script</span>
+                              </div>
+                        </div>
+                        <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fab fa-html5" style="color:white;"></i></div>
+                                    <span class="skill-cat-name">Frontend Development</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">HTML5</span>
+                                    <span class="skill-tag">CSS3</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">Bootstrap</span>
+                              </div>
+                        </div>
+                        <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fab fa-python" style="color:white;"></i></div>
+                                    <span class="skill-cat-name">Python Development</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">OOP</span>
+                                    <span class="skill-tag">File Handling</span>
+                                    <span class="skill-tag">Exception Handling</span>
+                                    <span class="skill-tag">Python Libraries</span>
+                              </div>
+                        </div>
+                        <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fas fa-database" style="color:white;"></i>
+                                    </div>
+                                    <span class="skill-cat-name">Database Technologies</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">MySQL</span>
+                                    <span class="skill-tag">PostgreSQL</span>
+                                    <span class="skill-tag">DBMS</span>
+                                    <span class="skill-tag">PowerBI</span>
+                                    <span class="skill-tag">MS Excel</span>
+                              </div>
+                        </div>
+                        <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fas fa-chart-bar" style="color:white;"></i>
+                                    </div>
+                                    <span class="skill-cat-name">Data Analysis</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">NumPy</span>
+                                    <span class="skill-tag">Pandas</span>
+                                    <span class="skill-tag">Matplotlib</span>
+                                    <span class="skill-tag">EXCEL</span>
+                                    <span class="skill-tag">Power BI</span>
+                                    <span class="skill-tag">DATA CLEANING</span>
+                                    <span class="skill-tag">SQL/RDBMS</span>
+                              </div>
+                        </div>
+                        <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fas fa-cog" style="color:white;"></i></div>
+                                    <span class="skill-cat-name">Machine Learning</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">Scikit-Learn</span>
+                                    <span class="skill-tag">Pytorch</span>
+                                    <span class="skill-tag">Data Preprocessing</span>
+                                    <span class="skill-tag">Feature Engineering</span>
+                                    <span class="skill-tag">Model Evaluation</span>
+                                    <span class="skill-tag">Model Training</span>
+                              </div>
+                        </div>
+                        <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fas fa-brain" style="color:white;"></i></div>
+                                    <span class="skill-cat-name">Deep Learning</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">PyTorch</span>
+                                    <span class="skill-tag">Neural Networks</span>
+                                    <span class="skill-tag">Transfer Learning</span>
+                              </div>
+                        </div>
+                        <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fas fa-server" style="color:white;"></i></div>
+                                    <span class="skill-cat-name">Backend Development</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">Flask</span>
+                                    <span class="skill-tag">Django</span>
+                                    <span class="skill-tag">FastAPI</span>
+                                    <span class="skill-tag">REST APIs</span>
+                              </div>
+                        </div>
+                        <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fas fa-tools" style="color:white;"></i></div>
+                                    <span class="skill-cat-name">Tools & Technologies</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">Git</span>
+                                    <span class="skill-tag">GitHub</span>
+                                    <span class="skill-tag">VS Code</span>
+                                    <span class="skill-tag">MS Excel</span>
+                                    <span class="skill-tag">MS Office</span>
+                              </div>
+                        </div>
+
+                         <div class="skill-category fade-up">
+                              <div class="skill-cat-head">
+                                    <div class="skill-cat-icon"><i class="fas fa-brain" style="color:white;"></i></div>
+                                    <span class="skill-cat-name">Soft Skill's</span>
+                              </div>
+                              <div class="skill-tags">
+                                    <span class="skill-tag">Communication Skills</span>
+                                    <span class="skill-tag">Problem Solving</span>
+                                    <span class="skill-tag">Teamwork</span>
+                                    <span class="skill-tag">Responsibility</span>
+                              </div>
+                        </div>
+
+
+                  </div>
+            </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects">
+            <div class="container">
+                  <div class="section-header fade-up">
+                        <span class="section-eyebrow">// portfolio</span>
+                        <h2 class="section-title">Featured <span>Projects</span></h2>
+                        <p class="section-subtitle">Real-world applications built with Python, AI/ML, and Full Stack
+                              technologies.</p>
+                        <div class="section-line"></div>
+                  </div>
+                  <div class="projects-grid">
+                        <div class="project-card fade-up">
+                              <div class="project-thumb">
+                                    <span class="project-num">01</span>
+                                    <img src="img/fashin.png" alt="Fashion MNIST Classifier" class="project-image" />
+                              </div>
+                              <div class="project-body">
+                                    <div class="project-tech">
+                                          <span class="tech-tag">Python</span>
+                                          <span class="tech-tag">Scikit-Learn</span>
+                                          <span class="tech-tag">NLP</span>
+                                          <span class="tech-tag">Flask</span>
+                                    </div>
+                                    <div class="project-name">Fashion-MNIST Image Classifier</div>
+                                    <div class="project-desc">Deep Learning model built with PyTorch to classify fashion
+                                          products from the Fashion-MNIST dataset. The system predicts one of 10
+                                          clothing categories including T-shirt, Trouser, Pullover, Dress, Coat, Sandal,
+                                          Shirt, Sneaker, Bag, and Ankle Boot through image recognition and neural
+                                          network-based classification.</div>
+                                    <div class="project-links">
+                                          <a href="https://github.com/mohdsuhel5712/FashionMNIST-Classification-using-PyTorch"
+                                               target="_blank" class="btn-sm btn-sm-primary"><i class="fab fa-github"></i> GitHub</a>
+                                          <a href="#" class="btn-sm btn-sm-ghost"><i
+                                                      class="fas fa-external-link-alt"></i> Demo</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="project-card fade-up">
+                             <div class="project-thumb">
+                                    <span class="project-num">02</span>
+                                    <img src="img/dog_cat.png" alt="Fashion MNIST Classifier" class="project-image" />
+                              </div>
+                              <div class="project-body">
+                                    <div class="project-tech">
+                                          <span class="tech-tag">Python</span>
+                                          <span class="tech-tag">PyTorch</span>
+                                          <span class="tech-tag">OpenCV</span>
+                                    </div>
+                                    <div class="project-name">Cat vs Dog Image Classifier</div>
+                                    <div class="project-desc">PyTorch-based deep learning web application that classifies images as cats or dogs using transfer learning and real-time prediction.</div>
+                                    <div class="project-links">
+                                          <a href="https://github.com/mohdsuhel5712/dog_cat_image_classifier" target="_blank" class="btn-sm btn-sm-primary"><i class="fab fa-github"></i>
+                                                GitHub</a>
+                                          <a href="#" class="btn-sm btn-sm-ghost"><i
+                                                      class="fas fa-external-link-alt"></i> Demo</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="project-card fade-up">
+                               <div class="project-thumb">
+                                    <span class="project-num">03</span>
+                                    <img src="img/canteen.png" alt="Fashion MNIST Classifier" class="project-image" />
+                              </div>
+                              <div class="project-body">
+                                    <div class="project-tech">
+                                          <span class="tech-tag">PyTorch</span>
+                                          <span class="tech-tag">Deep Learning</span>
+                                          <span class="tech-tag">CNN</span>
+                                    </div>
+                                    <div class="project-name">AI-Powered Canteen Management System</div>
+                                    <div class="project-desc">Smart canteen platform built with Flask, FastAPI, MySQL, and Scikit-learn for food demand prediction, order management, inventory tracking, and sales analytics.</div>
+                                    <div class="project-links">
+                                          <a href="https://github.com/mohdsuhel5712/AI-Powered-Canteen-Management-System" target="_blank" class="btn-sm btn-sm-primary"><i class="fab fa-github"></i>
+                                                GitHub</a>
+                                          <a href="#" class="btn-sm btn-sm-ghost"><i
+                                                      class="fas fa-external-link-alt"></i> Demo</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="project-card fade-up">
+                              <div class="project-thumb">
+                                    <span class="project-num">04</span>
+                                    <img src="img/S_I_S.png" alt="Fashion MNIST Classifier" class="project-image" />
+                              </div>
+                              <div class="project-body">
+                                    <div class="project-tech">
+                                          <span class="tech-tag">Python</span>
+                                          <span class="tech-tag">MySQL</span>
+                                          <span class="tech-tag">DBMS</span>
+                                    </div>
+                                    <div class="project-name">Student Management System</div>
+                                    <div class="project-desc">Full-featured student data management application with
+                                          CRUD operations, database integration using MySQL, and clean CLI/GUI, using Python Flask/fastApi .
+                                          </div>
+                                    <div class="project-links">
+                                          <a href="https://github.com/mohdsuhel5712/studentInformationSystem" target="_blank" class="btn-sm btn-sm-primary"><i class="fab fa-github"></i>
+                                                GitHub</a>
+                                          <a href="#" class="btn-sm btn-sm-ghost"><i
+                                                      class="fas fa-external-link-alt"></i> Demo</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="project-card fade-up">
+                              <div class="project-thumb">
+                                    <span class="project-num">05</span>
+                                    <img src="img/diesese_api.png" alt="Fashion MNIST Classifier" class="project-image" />
+                              </div>
+                              <div class="project-body">
+                                    <div class="project-tech">
+                                          <span class="tech-tag">Python</span>
+                                          <span class="tech-tag">FastAPI</span>
+                                          <span class="tech-tag">NLP</span>
+                                           <span class="tech-tag">Sklearn</span>
+                                          <span class="tech-tag">Flask/Mysql</span>
+                                    </div>
+                                    <div class="project-name">AI Disease Prediction System</div>
+                                    <div class="project-desc">A Machine Learning web application that predicts diseases based on user symptoms using Scikit-Learn and Flask.</div>
+                                    <div class="project-links">
+                                          <a href="https://github.com/mohdsuhel5712/Disiese_api_SKLEARN" target="_blank" class="btn-sm btn-sm-primary"><i class="fab fa-github"></i>
+                                                GitHub</a>
+                                          <a href="#" class="btn-sm btn-sm-ghost"><i
+                                                      class="fas fa-external-link-alt"></i> Demo</a>
+                                    </div>
+                              </div>
+                        </div>
+
+
+                        <!-- <div class="project-card fade-up">
+                              <div class="project-thumb">
+                                    <span class="project-num">06</span>
+                                    <i class="fas fa-wallet project-thumb-icon"></i>
+                              </div>
+                              <div class="project-body">
+                                    <div class="project-tech">
+                                          <span class="tech-tag">Python</span>
+                                          <span class="tech-tag">PostgreSQL</span>
+                                          <span class="tech-tag">Data Analysis</span>
+                                         
+                                    </div>
+                                    <div class="project-name">AI Chatbot Assistant</div>
+                                    <div class="project-desc">Smart expense management app with PostgreSQL database,
+                                          spending analytics, category-wise breakdown, and visual reporting features.
+                                    </div>
+                                    <div class="project-links">
+                                          <a href="#" class="btn-sm btn-sm-primary"><i class="fab fa-github"></i>
+                                                GitHub</a>
+                                          <a href="#" class="btn-sm btn-sm-ghost"><i
+                                                      class="fas fa-external-link-alt"></i> Demo</a>
+                                    </div>
+                              </div>
+                        </div> -->
+
+
+                  </div>
+            </div>
+      </section>
+
+      <!-- CTA BANNER -->
+      <div style="padding: 4rem 0; position: relative; z-index: 1;">
+            <div class="cta-banner fade-up">
+                  <h2>Have a Project Idea? <span
+                              style="background:var(--accent-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Let's
+                              Discuss It!</span></h2>
+                  <p>I'm always excited to work on challenging AI/ML or Python development projects.</p>
+                  <a href="#contact" class="btn-primary"><i class="fas fa-comments"></i> Let's Work Together</a>
+            </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <section id="education">
+            <div class="container">
+                  <div class="section-header fade-up">
+                        <span class="section-eyebrow">// education</span>
+                        <h2 class="section-title">Academic <span>Journey</span></h2>
+                        <div class="section-line"></div>
+                  </div>
+                  <div class="timeline">
+                        <div class="timeline-item fade-up">
+                              <div class="timeline-dot"></div>
+                              <div class="timeline-date">2024 — Present</div>
+                              <div class="timeline-degree">Bachelor of Technology — Information Technology</div>
+                              <div class="timeline-school">Bansal Institute of Engineering &amp; Technology, Lucknow
+                              </div>
+                              <div class="timeline-univ">Affiliated to Dr. A.P.J. Abdul Kalam Technical University
+                                    (AKTU)</div>
+                              <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">Data Structures</span>
+                                    <span class="skill-tag">DBMS</span>
+                                    <span class="skill-tag">Computer Networks</span>
+                                    <span class="skill-tag">AI/ML</span>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      <!-- ACHIEVEMENTS -->
+      <section id="achievements">
+            <div class="container">
+                  <div class="section-header fade-up">
+                        <span class="section-eyebrow">// achievements</span>
+                        <h2 class="section-title">Key <span>Highlights</span></h2>
+                        <div class="section-line"></div>
+                  </div>
+                  <div class="achievements-grid">
+                        <div class="achievement-card fade-up">
+                              <div class="ach-icon"><i class="fas fa-brain" style="color:white;"></i></div>
+                              <div class="ach-text">
+                                    <strong>AI/ML & Deep Learning Learner</strong>
+                                    Consistently building knowledge across AI, ML, and Deep Learning technologies
+                                    through hands-on practice and real-world projects.
+                              </div>
+                        </div>
+                        <div class="achievement-card fade-up">
+                              <div class="ach-icon"><i class="fab fa-python" style="color:white;"></i></div>
+                              <div class="ach-text">
+                                    <strong>Multiple Python Projects Built</strong>
+                                    Developed 6+ practical Python applications spanning web, AI/ML, database management,
+                                    and data analysis domains.
+                              </div>
+                        </div>
+                        <div class="achievement-card fade-up">
+                              <div class="ach-icon"><i class="fas fa-chart-line" style="color:white;"></i></div>
+                              <div class="ach-text">
+                                    <strong>Data Analysis Proficiency</strong>
+                                    Strong understanding of end-to-end ML workflows including preprocessing, feature
+                                    engineering, model training, and evaluation.
+                              </div>
+                        </div>
+                        <div class="achievement-card fade-up">
+                              <div class="ach-icon"><i class="fab fa-github" style="color:white;"></i></div>
+                              <div class="ach-text">
+                                    <strong>Active GitHub Developer</strong>
+                                    Regular contributor to version-controlled projects, embracing collaborative
+                                    development and open source practices.
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+            <div class="container">
+                  <div class="section-header fade-up" data-aos="flip-right">
+                        <span class="section-eyebrow">// contact</span>
+                        <h2 class="section-title">Get In <span>Touch</span></h2>
+                        <p class="section-subtitle">Have a project, opportunity, or just want to chat? I'd love to hear
+                              from you.</p>
+                        <div class="section-line"></div>
+                  </div>
+                  <div class="contact-grid">
+                        <div class="contact-info fade-up">
+                              <h3>Let's Build Something Together</h3>
+                              <p>I'm actively looking for internship opportunities, collaborative projects, and open
+                                    source contributions in the AI/ML and Python space.</p>
+                              <div class="contact-item">
+                                    <div class="contact-icon"><i class="fas fa-phone" style="color:white;"></i></div>
+                                    <div>
+                                          <div class="contact-label">Phone</div>
+                                          <div class="contact-val">+91 6388052523</div>
+                                    </div>
+                              </div>
+                              <div class="contact-item" data-aos="flip-right">
+                                    <div class="contact-icon"><i class="fas fa-envelope" style="color:white;"></i></div>
+                                    <div>
+                                          <div class="contact-label">Email</div>
+                                          <div class="contact-val">mohdsuhail5712@gmail.com</div>
+                                    </div>
+                              </div>
+                              <div class="contact-item" data-aos="flip-left">
+                                    <div class="contact-icon"><i class="fas fa-map-marker-alt" style="color:white;"></i>
+                                    </div>
+                                    <div>
+                                          <div class="contact-label">Location</div>
+                                          <div class="contact-val">Lucknow, Uttar Pradesh, India</div>
+                                    </div>
+                              </div>
+                              <div class="social-links" data-aos="flip-left">
+                                    <a href="https://www.linkedin.com/in/mohd-suhail-4aa24632a/" target="_blank" class="social-link" title="LinkedIn"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://github.com/mohdsuhel5712" target="_blank" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                                    <a href="#" target="_blank" class="social-link" title="Instagram"><i
+                                                class="fab fa-instagram"></i></a>
+                                    <a href="mailto:mohdsuhail5712@gmail.com" target="_blank" class="social-link" title="Email"><i
+                                                class="fas fa-envelope"></i></a>
+                              </div>
+                        </div>
+
+                        <div class="fade-up" data-aos="flip-left">
+                              <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+                                    <div class="form-row">
+                                          <div class="form-group">
+                                                <label class="form-label">Your Name *</label>
+                                                <input type="text" class="form-input" id="fname"
+                                                      placeholder="John Doe" />
+                                                <span class="form-error" id="fname-err">Please enter your name.</span>
+                                          </div>
+                                          <div class="form-group">
+                                                <label class="form-label">Email Address *</label>
+                                                <input type="email" class="form-input" id="femail"
+                                                      placeholder="john@email.com" />
+                                                <span class="form-error" id="femail-err">Please enter a valid
+                                                      email.</span>
+                                          </div>
+                                    </div>
+                                    <div class="form-group" data-aos="flip-right">
+                                          <label class="form-label">Subject *</label>
+                                          <input type="text" class="form-input" id="fsubject"
+                                                placeholder="Internship Opportunity / Project Collaboration" />
+                                          <span class="form-error" id="fsubject-err">Please enter a subject.</span>
+                                    </div>
+                                    <div class="form-group">
+                                          <label class="form-label">Message *</label>
+                                          <textarea class="form-textarea" id="fmessage"
+                                                placeholder="Tell me about your project or opportunity..."></textarea>
+                                          <span class="form-error" id="fmessage-err">Please enter a message.</span>
+                                    </div>
+                                    <div class="form-success" id="formSuccess">
+                                          <i class="fas fa-check-circle" style="margin-right:8px;color:#22c55e;"></i>
+                                          Message sent successfully! I'll get back to you soon.
+                                    </div>
+                                    <button type="submit" class="btn-primary"
+                                          style="width:100%;justify-content:center;">
+                                          <i class="fas fa-paper-plane"></i> Send Message
+                                    </button>
+                              </form>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+            <div class="footer-left" >
+                  <div class="logo">&lt;Mohd Suhail /&gt;</div>
+                  <div class="tagline">"Building Intelligent Solutions with Python and AI."</div>
+            </div>
+            <div class="footer-right">
+                  <div style="margin-bottom:0.4rem;">
+                        <a href="#home" style="color:var(--text-dim);text-decoration:none;margin:0 0.75rem;">Home</a>
+                        <a href="#about" style="color:var(--text-dim);text-decoration:none;margin:0 0.75rem;">About</a>
+                        <a href="#projects"
+                              style="color:var(--text-dim);text-decoration:none;margin:0 0.75rem;">Projects</a>
+                        <a href="#contact"
+                              style="color:var(--text-dim);text-decoration:none;margin:0 0.75rem;">Contact</a>
+                  </div>
+                  <div>© 2026 Mohd Suhail. All Rights Reserved.</div>
+            </div>
+      </footer>
+
+      <script>
+            // Mobile nav
+            function openMobileNav() { document.getElementById('mobileNav').classList.add('open'); }
+            function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); }
+
+            // Navbar scroll effect
+            window.addEventListener('scroll', () => {
+                  const nav = document.getElementById('navbar');
+                  if (window.scrollY > 50) {
+                        nav.style.background = 'rgba(7,11,20,0.97)';
+                  } else {
+                        nav.style.background = 'rgba(7,11,20,0.85)';
+                  }
+            });
+
+            // Scroll reveal
+            const observer = new IntersectionObserver((entries) => {
+                  entries.forEach(e => {
+                        if (e.isIntersecting) { e.target.classList.add('visible'); }
+                  });
+            }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+            document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+            // Typed text animation
+            const texts = [
+                  'Aspiring Python Developer',
+                  'AI/ML Engineer',
+                  'Deep Learning Enthusiast',
+                  'Full Stack Learner',
+                  'B.Tech IT Student'
+            ];
+            let textIdx = 0;
+            let charIdx = 0;
+            let isDeleting = false;
+            const el = document.getElementById('typed-text');
+
+            function typeWriter() {
+                  const current = texts[textIdx];
+                  const cursor = '<span class="typed-cursor">|</span>';
+                  if (!isDeleting) {
+                        charIdx++;
+                        el.innerHTML = current.substring(0, charIdx) + cursor;
+                        if (charIdx === current.length) { isDeleting = true; setTimeout(typeWriter, 1600); return; }
+                  } else {
+                        charIdx--;
+                        el.innerHTML = current.substring(0, charIdx) + cursor;
+                        if (charIdx === 0) { isDeleting = false; textIdx = (textIdx + 1) % texts.length; }
+                  }
+                  setTimeout(typeWriter, isDeleting ? 55 : 80);
+            }
+            setTimeout(typeWriter, 800);
+
+            // Contact form validation
+            function handleSubmit(e) {
+                  e.preventDefault();
+                  let valid = true;
+                  const fields = [
+                        { id: 'fname', errId: 'fname-err', check: v => v.trim().length > 1 },
+                        { id: 'femail', errId: 'femail-err', check: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) },
+                        { id: 'fsubject', errId: 'fsubject-err', check: v => v.trim().length > 2 },
+                        { id: 'fmessage', errId: 'fmessage-err', check: v => v.trim().length > 9 }
+                  ];
+                  fields.forEach(f => {
+                        const inp = document.getElementById(f.id);
+                        const err = document.getElementById(f.errId);
+                        if (!f.check(inp.value)) {
+                              inp.classList.add('invalid');
+                              err.classList.add('show');
+                              valid = false;
+                        } else {
+                              inp.classList.remove('invalid');
+                              err.classList.remove('show');
+                        }
+                  });
+                  if (valid) {
+                        document.getElementById('formSuccess').classList.add('show');
+                        document.getElementById('contactForm').reset();
+                        setTimeout(() => document.getElementById('formSuccess').classList.remove('show'), 5000);
+                  }
+            }
+      </script>
+      <!-- aos animation js file  -->
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+  AOS.init();
+</script>
+</body>
+
+</html>
